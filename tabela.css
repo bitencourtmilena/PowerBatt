@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+h1{
+    font-family: 'Black Ops One', cursive;
+    color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+}
+
+.box_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.box_nav img{
+    margin-top: 10px;
+    width: 50px;
+    filter: invert();
+    cursor: pointer;
+
+}
+
+.listas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding:  1rem;
+    gap: 50px;
+    color: hsla(0, 0%, 0%, 0.911);
+    font-weight: 100;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+
+}
+
+.listas li{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.listas li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.listas li:hover{
+    color: rgb(61, 29, 29);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+p{
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #858585;
+}
+.fotos{
+    width: 150px;
+    height: 90px;
+}
+.footer{
+    background-color: #1d1d20;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+}
+
+.texto1{
+    color: #86868b;
+    font-weight: 100;
+    font-size: 14px;
+    border-bottom: 1px solid #86868b;
+    padding: 12px 0;
+}
+
+.texto1 a{
+    color: #2686df;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.texto1 a:hover{
+    border-bottom: 1px solid #2686df;
+}
+
+.texto2 h4{
+    color: #86868b;
+    font-weight: 100;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.listas_footer{
+    color: #aaaaaa;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.listas_footer a{
+    color: #86868b;
+    text-decoration: none;
+}
+
+.btn1{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+}
+
+.btn2{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.btn3{
+    border-right: 1px solid #86868b;
+    padding-right: 20px;
+}
+
